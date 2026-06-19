@@ -186,7 +186,5 @@ Ver `AGENTS.md` para la lista completa de operaciones permitidas y prohibidas.
 ---
 
 ## Autores
-
-Grupo — Electiva Desarrollo de Aplicaciones Web 2026  
 Universidad del Cauca, Departamento de Telemática  
 Profesor: Javier Alexander Hurtado (javhur@unicauca.edu.co)
