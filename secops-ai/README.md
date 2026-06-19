@@ -1,7 +1,6 @@
 # SecOps AI — Asistente Autónomo de Auditoría y Hardening de Seguridad
 
 **Universidad del Cauca — Departamento de Telemática**  
-Electiva: Desarrollo de Aplicaciones Web 2026  
 Microproyecto: Aplicaciones basadas en Agentes AI — Opción 2
 
 ---
@@ -53,7 +52,7 @@ secops-ai/
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/TU_USUARIO/secops-ai.git
+git clone https://github.com/3nombresjja/secops-ai.git
 cd secops-ai
 
 # 2. Ejecutar el instalador
