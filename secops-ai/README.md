@@ -178,10 +178,25 @@ SecOps AI: He encontrado los siguientes servicios:
 
 Este proyecto sigue el principio de **mínimo privilegio**:
 
-- **Fase 3 (actual):** Solo lectura. El agente no puede modificar ninguna configuración.
-- **Fase 4 (próxima):** Las operaciones de escritura requerirán confirmación explícita del usuario a través del mecanismo de aprobación de OpenClaw (exec approvals).
 
 Ver `AGENTS.md` para la lista completa de operaciones permitidas y prohibidas.
+
+
+**NOTA**
+Para correr todo en caso de necesitar un reset se hace:
+
+openclaw gateway stop
+sudo systemctl stop openclaw
+systemctl list-units | grep -i openclaw
+pkill -f openclaw
+sudo systemctl stop ollama
+pkill -f ollama
+nvidia-smi
+OLLAMA_DEBUG=1 ollama serve
+
+//En otra terminal
+
+openclaw gateway
 
 ---
 
