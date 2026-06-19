@@ -12,7 +12,7 @@ SecOps AI es un agente especializado en seguridad de redes que audita de forma p
 **Stack:**
 - 🦞 **OpenClaw** — Framework del agente, integración con Telegram
 - 🦙 **Ollama + qwen2.5:3b** — LLM local cuantizado
-- 🐧 **Ubuntu VM** — 16 GB RAM, 4 vCPUs, 30 GB disco
+- 🐧 **Ubuntu** — 16 GB RAM, 16 CPUs, 30 GB disco, rtx 4050 
 
 ---
 
